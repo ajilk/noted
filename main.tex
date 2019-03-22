@@ -1,8 +1,28 @@
 \documentclass{noted}
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}\cfoot{}
+\setlength{\parindent}{0pt}
 
 \begin{document}
-\1{Header 1}
-\2{Header 2}
-\3{Header 3}
+The possible header options \|
+\1{Header 1} \|
+\2{Header 2} \|
+\3{Header 3} \|
+
+list \{
+	\> list \{
+		\> list \{
+			\> list \{
+				\> list
+			\} \> list
+		\} \> list
+	\} \> list
+\}
+list 
+\|
+\r{Important notes}
+\cline
+\r{Divider above}
 \end{document}
 
