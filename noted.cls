@@ -6,6 +6,7 @@
 \RequirePackage{xcolor}
 \RequirePackage{verbatim}
 \RequirePackage{MnSymbol}
+\RequirePackage{array}
 
 % Styles
 \renewcommand{\b}{\textbf}
@@ -13,9 +14,9 @@
 \renewcommand{\u}{\underline}
 
 % Headers
-\newcommand{\1}[1]{ {\Large \b{#1}} 	}
-\newcommand{\2}[1]{ {\large \b{\i{#1}}}	}
-\newcommand{\3}[1]{ \i{#1} }
+\newcommand{\1}[1]{{\Large\b{#1}}}
+\newcommand{\2}[1]{{\large\b{\i{#1}}}}
+\newcommand{\3}[1]{\i{#1}}
 
 % Item Styles
 \renewcommand{\labelitemi}{$\smallsquare$}
