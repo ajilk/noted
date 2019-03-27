@@ -4,4 +4,24 @@
 
 ---
 
-LaTeX document class for taking notes
+LaTeX document class for taking notes  
+#### _From:_
+```latex
+{\Large Chapter -12: The impact of negative numbers}
+\begin{itemize}
+	\item \textbf{Reasons why negative numbers are amazing}
+	\begin{enumerate}
+		\item {\large They are not positive}
+	\end{enumerate}
+\end{itemize}
+```
+#### _To:_
+```latex
+\1{Chapter -12: The impact of negative numbers}\{
+	\> \b{Reasons why negative numbers are amazing}\[
+		\> \2{large They are not positive}
+	\]
+\}
+```
+#### Product:
+![demo](./docs/imgs/demo.png)
