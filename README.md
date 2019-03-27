@@ -25,3 +25,11 @@ LaTeX document class for taking notes
 ```
 #### Product:
 ![demo](./docs/imgs/demo.png)
+
+### Cheatsheet
+From | To
+:----:|:----:
+```\textbf{}```| ```\b{}``` 
+```\textit{}```| ```\i{}``` 
+```\underline{}```| ```\u{}``` 
+``` ... ``` | ```...```
