@@ -40,3 +40,7 @@
 \newcommand{\term}[2]{\b{#1}\hspace*{1em}#2}
 \renewcommand{\cline}{\begin{center}-------------------------------\end{center}}
 \renewcommand{\|}{\{ \< \}}
+
+% Text Alignment
+\renewcommand{\right}[1]{\begin{flushright}{#1}\end{flushright}}
+\renewcommand{\left}[1]{\begin{flushleft}{#1}\end{flushleft}}
