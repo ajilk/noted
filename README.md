@@ -23,7 +23,7 @@ LaTeX document class for taking notes
 	\]
 \}
 ```
-#### Product:
+#### Output:
 ![demo](./docs/imgs/demo.png)
 
 ### Cheatsheet
