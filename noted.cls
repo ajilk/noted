@@ -14,9 +14,9 @@
 \renewcommand{\u}{\underline}
 
 % Headers
-\newcommand{\1}[1]{{\Large\b{#1}}}
-\newcommand{\2}[1]{{\large\b{\i{#1}}}}
-\newcommand{\3}[1]{\i{#1}}
+\newcommand{\1}[1]{\Large{#1}}
+\newcommand{\2}[1]{\large{#1}}
+\newcommand{\3}[1]{\small{\#1}}
 
 % Item Styles
 \renewcommand{\labelitemi}{$\smallsquare$}
